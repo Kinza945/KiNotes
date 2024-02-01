@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KiNotes</string>
+    <string name="search">Поиск</string>
+    <string name="pin_unpin">Закрепить/открепить</string>
+    <string name="delete">Удалить</string>
+    <string name="archive">Архивировать</string>
+    <string name="notes_text">Заметка</string>
+    <string name="title">Заголовок</string>
+    <string name="date">Дата</string>
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+    <string name="move_to_trash">Переместить в корзину</string>
+
+</resources>

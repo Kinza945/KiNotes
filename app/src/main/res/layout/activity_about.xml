@@ -1,0 +1,138 @@
+<!-- res/layout/activity_about.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_back"
+        android:padding="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/buttonAppInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewBack"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="О приложении" />
+
+    <TextView
+        android:id="@+id/buttonVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAppInfo"
+        android:layout_margin="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Версия: 0.0.1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonDeveloper"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonVersion"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border_background2"
+        android:text="Разработано и спроектировано (ссылка которой нет)"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDeveloper"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_background">
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Настройки"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonChangelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Журнал изменений"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonPrivacyPolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Политика конфиденциальности"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonTermsConditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Правила и условия"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Обратная связь"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonCheckUpdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Проверка наличия обновлений"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/border_background2"
+        android:text="Сброс"
+        android:textColor="#000000"
+        android:gravity="start|center_vertical"/>
+
+
+</RelativeLayout>
